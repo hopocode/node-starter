@@ -1,0 +1,12 @@
+const builder =  async (config: any): Promise<boolean> => {
+    const package: any = {};
+    
+    if(config.name) {
+        package.name
+    }
+
+    return true;
+}
+
+
+export {builder}

@@ -1,0 +1,21 @@
+{
+    "name": "myapp",
+    "version": "1.0.0",
+    "description": "My simple small app",
+    "scripts": {
+        "tsc": "tsc",
+        "build": "tsc",
+        "dev": "ts-node-dev ./src/index.ts",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "typescript": "^3.7.5",
+        "@types/jest": "^25.1.2",
+        "jest": "^25.1.0",
+        "ts-jest": "^25.2.0",
+        "ts-node-dev": "^1.0.0-pre.44"
+    },
+    "init-after": {
+        "cmd": ["npm i"]
+    }
+}
